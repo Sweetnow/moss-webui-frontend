@@ -13,7 +13,15 @@ const router = createBrowserRouter([
     {
         path: "*",
         element: <Navigate to="/" />,
-    }
+    },
+    {
+        path: "/moss-webui-frontend/",
+        element: <App />,
+    },
+    {
+        path: "/moss-webui-frontend/*",
+        element: <Navigate to="/moss-webui-frontend/" />,
+    },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

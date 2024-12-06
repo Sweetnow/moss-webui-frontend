@@ -2,6 +2,8 @@
 
 A Web UI to visualize the PostgreSQL output by MOSS.
 
+Github Page: https://tsinghua-fib-lab.github.io/moss-webui-frontend/
+
 ## Guide
 
 You can set the [backend server](https://github.com/tsinghua-fib-lab/moss-webui-backend) address in the Web UI.
@@ -50,4 +52,10 @@ In the visualization, we show all elements as follows:
 npm install
 npm run dev # for development
 npm run build # for production
+```
+
+## Github Pages Refresh
+
+```bash
+npm run deploy
 ```
