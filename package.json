@@ -1,0 +1,50 @@
+{
+    "name": "moss-webui-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --port 3000 --force",
+        "build": "tsc && vite build",
+        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^5.3.0",
+        "@deck.gl/mesh-layers": "^8.9.34",
+        "@fiblab/moss-replay": "^1.0.1",
+        "@loaders.gl/core": "^3.4.14",
+        "@loaders.gl/gltf": "^3.4.14",
+        "@luma.gl/engine": "^8.5.21",
+        "antd": "^5.14.1",
+        "casdoor-js-sdk": "^0.13.0",
+        "casdoor-react-sdk": "^1.2.0",
+        "deck.gl": "^8.9.34",
+        "i": "^0.3.7",
+        "js-cookie": "^3.0.5",
+        "js-sdsl": "^4.4.2",
+        "mapbox-gl": "^3.1.2",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-map-gl": "^6",
+        "react-router-dom": "^6.22.1",
+        "react-use-websocket": "^4.7.0",
+        "three": "^0.161.0",
+        "tinycolor2": "^1.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@types/three": "^0.161.2",
+        "@types/tinycolor2": "^1.4.6",
+        "@typescript-eslint/eslint-plugin": "^7.0.2",
+        "@typescript-eslint/parser": "^7.0.2",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "eslint": "^8.56.0",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.5",
+        "typescript": "^5.2.2",
+        "vite": "^5.1.4"
+    }
+}
