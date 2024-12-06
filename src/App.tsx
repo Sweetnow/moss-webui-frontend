@@ -1,7 +1,7 @@
 import { SettingOutlined, UploadOutlined } from "@ant-design/icons";
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
-import { Select, Button, Form, message, Space, Divider, Modal, Input, FormInstance } from "antd";
+import { Select, Button, Form, message, Space, Modal, Input, FormInstance } from "antd";
 import { MAP_CENTER } from "./Components/utils/const";
 import { SimRaw } from "./Components/type";
 import { Car, Replay } from "@fiblab/moss-replay/index";
