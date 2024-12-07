@@ -9,11 +9,6 @@ import { LngLatZoom } from "@fiblab/moss-replay/src/_components/type";
 
 const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZmh5ZHJhbGlzayIsImEiOiJja3VzMWc5NXkwb3RnMm5sbnVvd3IydGY0In0.FrwFkYIMpLbU83K9rHSe8w';
 
-interface LngLat {
-    lng: number;
-    lat: number;
-}
-
 interface CarRaw {
     id: number,
     step: number,
@@ -190,13 +185,7 @@ function App() {
     return (<Replay
         sim={sim}
         mapCenter={mapCenter}
-        onSetMapCenter={(center: LngLat) => {
-            setMapCenter({
-                lng: center.lng,
-                lat: center.lat,
-                zoom: mapCenter.zoom,
-            });
-        }}
+        onSetMapCenter={setMapCenter}
         onCarFetch={async (startT, endT, bound) => {
             startT = Math.floor(startT);
             endT = Math.ceil(endT);
