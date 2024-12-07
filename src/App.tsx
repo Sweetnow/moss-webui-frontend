@@ -1,4 +1,4 @@
-import { SettingOutlined, UploadOutlined } from "@ant-design/icons";
+import { DownloadOutlined, SettingOutlined } from "@ant-design/icons";
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import { Select, Button, Form, message, Space, Modal, Input, FormInstance } from "antd";
@@ -74,7 +74,7 @@ const useLoadForm = (apiUrl: string, setApiUrl: (string) => void) => {
                 })}
             />
         </Form.Item>
-        <Button icon={<UploadOutlined />} type="primary" htmlType="submit">
+        <Button icon={<DownloadOutlined />} type="primary" htmlType="submit">
             Load
         </Button>
     </Form>
@@ -331,11 +331,11 @@ function App() {
         roadGeoJson={roadGeoJson}
         junctionLaneGeoJson={junctionLaneGeoJson}
         carModelPaths={{
-            "mini": "/models/cars/car_mini_red.gltf",
-            "normal": "/models/cars/car_normal_red.gltf",
-            "bus": "/models/cars/bus_green01.gltf",
+            "mini": "/moss-webui-frontend/models/cars/car_mini_red.gltf",
+            "normal": "/moss-webui-frontend/models/cars/car_normal_red.gltf",
+            "bus": "/moss-webui-frontend/models/cars/bus_green01.gltf",
         }}
-        defaultCarModelPath="/models/cars/car_normal_red.gltf"
+        defaultCarModelPath="/moss-webui-frontend/models/cars/car_normal_red.gltf"
         mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
         message={{
             info: (msg, duration) => message.info(msg, duration),
