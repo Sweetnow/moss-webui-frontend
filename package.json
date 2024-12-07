@@ -15,7 +15,7 @@
     "dependencies": {
         "@ant-design/icons": "^5.3.0",
         "@deck.gl/mesh-layers": "^8.9.34",
-        "@fiblab/moss-replay": "^1.0.1",
+        "@fiblab/moss-replay": "^1.1.2",
         "@loaders.gl/core": "^3.4.14",
         "@loaders.gl/gltf": "^3.4.14",
         "@luma.gl/engine": "^8.5.21",

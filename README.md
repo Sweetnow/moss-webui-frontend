@@ -24,6 +24,8 @@ If you load the simulation successfully, you can see that the map are moving to 
 Now you can start to visualize the simulation.
 
 You can choose the enabled functions and layers in the top panel.
+- Longitude/Latitude: enter the longitude and latitude to move the map to the specific location.
+- Person ID: enter the person ID to move the camera to the pedestrian/vehicle.
 - `Interpolate`: interpolate the data between two steps to make the animation smoother, but the middle frames are not real data.
 - `Pick`: you can hover the mouse on the vehicles, pedestrians, and buildings to see the details.
 - Vehicle Icon: open/close the layer that shows the vehicles, pedestrians, and traffic lights.
